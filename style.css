@@ -159,13 +159,9 @@ header{
     justify-content: space-between;
 
 }
-.navbar .logo a{
-    font-size: 1.5rem;
-    font-weight:lighter;
-    font-family:'Courier New', Courier, monospace;
+.navbar .logo img{
+    width: 150px;
 }
-
-
 .navbar .links{
     display: flex;
     gap: 2rem;
