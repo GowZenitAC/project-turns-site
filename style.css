@@ -159,10 +159,8 @@ header{
     justify-content: space-between;
 
 }
-.navbar .logo a{
-    font-size: 1.5rem;
-    font-weight:lighter;
-    font-family:'Courier New', Courier, monospace;
+.navbar .logo img{
+    width: 200px;
 }
 
 
@@ -239,9 +237,13 @@ header{
 }
 .navbar .toggle_btn{
     display: block;
+    /* margin-bottom: 50px; */
 }
 .dropdown_menu{
     display: block;
+}
+.navbar .logo img{
+    width: 100px;
 }
 }
 @media(max-width:992px){
@@ -731,7 +733,7 @@ footer {
     }
     .caract :hover{
         transform: translateY(-4px);
-        box-shadow: 0 1px 14px 2px rgb(0, 0, .15);
+        /* box-shadow: 0 1px 14px 2px rgb(0, 0, .15); */
     }
    .carta :hover .caract{
     transform: scale(1.1);
