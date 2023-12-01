@@ -170,6 +170,12 @@ header{
     display: flex;
     gap: 2rem;
 }
+.navbar .links li a{
+    font-size: 1.2rem;
+}
+.navbar .links li a:hover{
+    color: #f38b0b
+}
 .navbar .toggle_btn{
     color: beige;
     font-size: 1.5rem;
@@ -183,7 +189,7 @@ header{
     border: none;
     outline: none;
     border-radius: 20px;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
     transition:scale 0.2ease;
