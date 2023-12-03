@@ -317,10 +317,11 @@ header{
     width: 600px;
     border-radius: 8px;
     filter: drop-shadow(8px 8px 10px rgb(1, 45, 59));
+    transition: transform 0.3s ease-in-out;
    
 }
 #info .img-container:hover{
-      transform: scaleX(-1);
+    transform: scale(1.2);
 }
 .tel{
     display: none;
